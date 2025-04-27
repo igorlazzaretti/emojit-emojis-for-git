@@ -2,8 +2,60 @@
 
 Você encontrou sua lista completa de emojis para usar nos seus commits. Por exemplo:
 
-    git commit -m ":smile: Socorroo!!"
+    git commit -m ":pray: Socorroo!!"
 
+
+
+### Lista Emojis para Commits
+
+
+| Commit type                | Tipo de Tarefa                  | Emoji                                                    |
+|:---------------------------|:--------------------------------|:---------------------------------------------------------|
+| Initial commit             | Commit Inicial                  | :tada: `:tada:`                                          |
+| Version tag                | Tag de Versão                   | :bookmark: `:bookmark:`                                  |
+| New feature                | Nova Funcionalidade             | :sparkles: `:sparkles:`                                  |
+| Bugfix                     | Correção de Bug                 | :bug: `:bug:`                                            |
+| Metadata                   | Metadados                       | :card_index: `:card_index:`                              |
+| Documentation              | Documentação                    | :books: `:books:`                                        |
+| Documenting source code    | Documentando Código Fonte       | :bulb: `:bulb:`                                          |
+| Performance                | Desempenho                      | :racehorse: `:racehorse:`                                |
+| Cosmetic                   | Estética                        | :lipstick: `:lipstick:`                                  |
+| Tests                      | Testes                          | :rotating_light: `:rotating_light:`                      |
+| Adding a test              | Adicionando Teste               | :white_check_mark: `:white_check_mark:`                  |
+| Make a test pass           | Corrigindo Teste                | :heavy_check_mark: `:heavy_check_mark:`                  |
+| General update             | Atualização Geral               | :zap: `:zap:`                                            |
+| Improve format/structure   | Melhorar Formato/Estrutura      | :art: `:art:`                                            |
+| Refactor code              | Refatoração de Código           | :hammer: `:hammer:`                                      |
+| Removing code/files        | Removendo Código/Arquivos       | :fire: `:fire:`                                          |
+| Continuous Integration     | Integração Contínua             | :green_heart: `:green_heart:`                            |
+| Security                   | Segurança                       | :lock: `:lock:`                                          |
+| Upgrading dependencies     | Atualizando Dependências        | :arrow_up: `:arrow_up:`                                  |
+| Downgrading dependencies   | Rebaixando Dependências         | :arrow_down: `:arrow_down:`                              |
+| Lint                       | Lint                            | :shirt: `:shirt:`                                        |
+| Translation                | Tradução                        | :alien: `:alien:`                                        |
+| Text                       | Texto                           | :pencil: `:pencil:`                                      |
+| Critical hotfix            | Hotfix Crítico                  | :ambulance: `:ambulance:`                                |
+| Deploying stuff            | Deploy                          | :rocket: `:rocket:`                                      |
+| Fixing on MacOS            | Corrigindo no MacOS             | :apple: `:apple:`                                        |
+| Fixing on Linux            | Corrigindo no Linux             | :penguin: `:penguin:`                                    |
+| Fixing on Windows          | Corrigindo no Windows           | :checkered_flag: `:checkered_flag:`                      |
+| Work in progress           | Trabalho em Progresso           | :construction: `:construction:`                          |
+| Adding CI build system     | Adicionando Sistema de Build CI | :construction_worker: `:construction_worker:`            |
+| Analytics or tracking code | Código de Análise/Rastreamento  | :chart_with_upwards_trend: `:chart_with_upwards_trend:`  |
+| Removing a dependency      | Removendo Dependência           | :heavy_minus_sign: `:heavy_minus_sign:`                  |
+| Adding a dependency        | Adicionando Dependência         | :heavy_plus_sign: `:heavy_plus_sign:`                    |
+| Docker                     | Docker                          | :whale: `:whale:`                                        |
+| Configuration files        | Arquivos de Configuração        | :wrench: `:wrench:`                                      |
+| Package.json in JS         | Package.json no JS              | :package: `:package:`                                    |
+| Merging branches           | Mesclando Branches              | :twisted_rightwards_arrows: `:twisted_rightwards_arrows:`|
+| Bad code / need improv.    | Código Ruim / Precisa Melhorar  | :hankey: `:hankey:`                                      |
+| Reverting changes          | Revertendo Mudanças             | :rewind: `:rewind:`                                      |
+| Breaking changes           | Mudanças Quebrando o Código     | :boom: `:boom:`                                          |
+| Code review changes        | Mudanças após Code Review       | :ok_hand: `:ok_hand:`                                    |
+| Accessibility              | Acessibilidade                  | :wheelchair: `:wheelchair:`                              |
+| Move/rename repository     | Mover/Renomear Repositório      | :truck: `:truck:`                                        |
+
+            
 
 ### Lista Completa de Emojis
 
