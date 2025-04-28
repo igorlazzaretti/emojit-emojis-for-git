@@ -87,10 +87,31 @@
         .alert-success {
             background-color: #28a745;
         }
+
+        #top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+            border-color: transparent;
+            cursor: pointer;
+            display: none;
+            font-size: 2rem;
+            /* Hidden by default */
+        }
+
+        #top:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
 <body>
+    <!-- Div que é um botão sticky para voltar ao topo #top -->
+    <button id="top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">⬆️</button>
+
     <header>
         <h1>
             Lista de Emojis para Git
@@ -341,6 +362,8 @@
     <h4 style="margin-top: -20px; margin-left: 5vw; font-size: small;"><i>Clique em<span class="copy-icon"
                 onclick="alert('Errooo... É neste emoji mesmo, mas escolha dentro da tabela. ')">📋</span> para copiar o
             código para commit.</i></h4>
+    <h5>Lista Completa no GitHub <a href="https://github.com/igorlazzaretti/emojit-emojis-for-git"
+            target="_blank">aqui</a></h5>
 
     <table>
         <tr>
@@ -409,6 +432,16 @@
     </table>
 
     <script>
+        // Adicionar antes das outras funções
+        window.addEventListener('scroll', function () {
+            const topButton = document.querySelector('#top');
+            if (window.scrollY > 300) { // Mostrar botão depois de rolar 300px
+                topButton.style.display = 'block';
+            } else {
+                topButton.style.display = 'none';
+            }
+        });
+
         function toggleDarkMode() {
             document.body.classList.toggle('dark-mode');
             const toggleIcon = document.querySelector('.dark-mode-toggle');
@@ -434,6 +467,9 @@
                 console.error('Erro ao copiar: ', err);
             });
         }
+        document.querySelector('#top').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     </script>
 </body>
 
